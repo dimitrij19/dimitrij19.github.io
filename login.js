@@ -12,17 +12,17 @@ submitBtn.addEventListener('click', function(e) {
   }
   
   
-   if (name.value.length <= 6) {
-    messages.push('Name must be longer than 6 characters')
+   if (name.value.length <= 20) {
+    messages.push('Bitte geben Sie eine gültige Adresse in der Form nachname@IhreDomain.com ein!')
   }
   
   
 
-  if (password.value.length <= 6) {
-    messages.push('Das Passwort ist falsch. Versuchen Sie es noch einmal')
+  if (password.value.length <= 7) {
+    messages.push('Ihr Passwort muss mindestens 8 Zeichen lang sein. Versuchen Sie es noch einmal.')
   }
 
-  
+ 
 
   if (password.value === 'password') {
     messages.push('Password cannot be password')

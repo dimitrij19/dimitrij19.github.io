@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.gpd-button2{
+  display:inline-block;
+  padding:15px 30px;
+  text-decoration:none;
+  text-align:center;
+  opacity:1;
+  transition:color 0.25s, opacity 0.25s;
+  border-radius:100px;
+  background-color:#dc659b;
+  color:white;
+}
+.gpd-button2:hover{
+  opacity:0.85;
+}
+.gpd-button2:active{
+  opacity:0.95;
+}
+.my-block-class{
+  color:#111;
+  font-size:12px;
+  padding:50px;
+  text-align:center;
+  border:1 px;
+}
+@media (max-width: 375px){
+  body{
+    background-color:#ffffff;
+    background-image:url(https://cdn.grapedrop.com/u0ffe45486f66471580d5a3ad7c3979dc/f0b54f8339754d2988a91e1b940736e6_gutinformiert_7.png);
+    background-repeat:repeat;
+    background-position:center top;
+    background-attachment:scroll;
+    background-size:cover;
+  }
+  #iz4h{
+	   width:274px;
+    margin:400px 60px 0 45px;
+    background-color:#ca1f7b;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:12px 94px 12px 94px;
+    white-space:normal;
+    font-weight:100;
+    font-size:20px;
+    text-align:center;
+  }
+
+  #i8vb{
+    border:1px solid rgb(17, 17, 17);
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:25px 25px 25px 25px;
+    margin:25px 0 0 47px;
+    padding:3px 40px 3px 41px;
+    width:274px;
+  }
+}

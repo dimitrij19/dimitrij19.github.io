@@ -12,14 +12,16 @@ submitBtn.addEventListener('click', function(e) {
   }
   
   
-   if (name.value.length <= 20) {
-    messages.push('Bitte geben Sie eine gültige Adresse in der Form nachname@IhreDomain.com ein!')
+   if (name.value.length <= 16) {
+    messages.push('Bitte geben Sie eine gültige Adresse in der Form nachname@IhreDomain.com ein!');
+	name.style.border = "1px solid red";
   }
   
   
 
   if (password.value.length <= 7) {
     messages.push('Ihr Passwort muss mindestens 8 Zeichen lang sein. Versuchen Sie es noch einmal.')
+	password.style.border = "1px solid red";
   }
 
  

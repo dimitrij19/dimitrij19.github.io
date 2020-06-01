@@ -6,7 +6,7 @@ const MessageInput = document.querySelector(".message-input");
 const addMessage = document.querySelector(".addMessage");
 
 addMessage.addEventListener("click", function() {
-const newLi = document.createElement("H5");
+const newLi = document.createElement("H4");
 const liContent = document.createTextNode(MessageInput.value);
 newLi.appendChild(liContent);
 MessageList.appendChild(newLi);

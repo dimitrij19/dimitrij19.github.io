@@ -57,7 +57,7 @@ body {
   
   #i1ma{
     display:inline-block;
-    margin:10px 20px 20px 205px;
+    margin:10px 20px 200px 205px;
     padding:7px 12px 7px 18px;
     background-color:#ca1f7b;
     text-align:center;
@@ -66,15 +66,21 @@ body {
     color:#ffffff;
   }
   #i9qq{
-    margin:220px 0 0 20px;
+    margin:10px 0 0 20px;
     border:1px solid #000000;
     border-radius:25px 25px 25px 25px;
     width:330px;
-    height:100px;
+    height:70px;
   }
+  
+   #i9qq1{
+    margin:10px 20px 20px 30px;
+  }
+  
+  
   #ifxu{
     background-color:#ca1f7b;
-    margin:10px 0 0 230px;
+    margin:5px 0 0 230px;
     color:#ffffff;
     border:0 solid #ffffff;
     padding:7px 30px 7px 30px;

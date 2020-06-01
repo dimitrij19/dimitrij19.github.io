@@ -5,13 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="stylepage2.css">
-<title>Schritt1</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<title>Modul auswählen</title>
 </head>
 <body>
 
-<main>
-<article>
-
+<div class="container">
+    <div class="notify">
+    </div>
+    
+    <button class="btn" id="inqke1">Neue Messages</button>
+</div>
 
 
 <a href="/index.html" id="inqke" class="gpd-button2">
@@ -19,8 +23,10 @@
 <div id="iwhi" class="my-block-class">MODULLISTE
 </div>
 
+
 <a href="##" id="iebr" class="gpd-button4">
   I-310 Computergrafik I&nbsp; &nbsp; &nbsp;</a>
+  </div>
   
 <a href="##" id="ippe7" class="gpd-button4">
   I-260 Englisch II&nbsp; &nbsp; &nbsp;</a>
@@ -52,11 +58,24 @@
 <a href="##" id="id6u" class="gpd-button4">
   I-312 Programmierung II&nbsp; &nbsp;</a>
 
+<script>
+var notify = document.querySelector('.notify');
+var btn = document.querySelector('.btn');
+btn.addEventListener('click', active);
 
+function active(){
+	var add = Number(notify.getAttribute('data-count'))|| 0;
+	notify.setAttribute('data-count', add + 1);
+	if (add === 0) {
+		notify.classList.add('add-numb');
+	}
+	false;
+}
 
-
-</article>
-</main>
+</script>
+  
+  
+  
 </div>
 </body>
 </html>

@@ -179,27 +179,11 @@ body {
 
 
 
-
-
-
-
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: arial;
-	margin:22px 0 0 100px;
-}
-
 .notify::before {
-	margin:-6px 0 0 60px;
 	content: attr(data-count);
 	position: absolute;
-	top: 0px;
-    right: -68px;
+	top: 415px;
+    right: 12px;
     font-size: 30px;
     font-weight: 700;
     color: white;
@@ -213,40 +197,31 @@ body {
     transition: opacity 0.1s ease-out;
     animation: animate .9s ease-out infinite alternate;
 }
-.container .btn1{
+.container .btn{
+	  display:inline-block;
 	position: absolute;
-	top: 100px;
-	height: 10px;
-	width: 120px;
+	top: 20px;
+	left: 12px;
+	height: 32px;
+	width: 180px;
 	color: white;
 	font-size: 15px;
 	font-weight: bold;
-	background: #dc659b;
+	border: 1px solid #ca1f7b;
+	background: #ca1f7b;
+	border-radius: 3px;
 	line-height: 40px;
 	cursor: pointer;
 	outline: none;
 	transition: .5s;
-	}
-.container .btn{
-	position: absolute;
-	left: -250px;
-	top: -345px;
-	height: 34px;
-	width: 160px;
-	color: white;
-	font-size: 12px;
-	font-weight: bold;
-	background: #dc659b;
- border-radius:100px;
- font-family:Arial, Helvetica, sans-serif;
-	cursor: pointer;
-	outline: none;
-	transition: .5s;
-}
-	
+	 border-radius:100px;
+	     font-family:Arial, Helvetica, sans-serif;
+		  background-color:#ca1f7b;
+		   padding:0 0 6px 0;
+		  
 }
 .container .btn:hover{
-	background: #dc659b;
+	background: #ca1f7b;
 }
 @keyframes animate{
 	0%{
@@ -259,7 +234,6 @@ body {
 .notify.add-numb::before{
     opacity: 1;
 }
-
 
 
 

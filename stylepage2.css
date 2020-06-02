@@ -182,7 +182,7 @@ body {
 .notify::before {
 	content: attr(data-count);
 	position: absolute;
-	top: 530px;
+	top: 430px;
     right: 14px;
     font-size: 30px;
     font-weight: 700;

@@ -11,18 +11,32 @@
 <div id="i52r" class="gpd-text">I-311 Computergrafik II</div>
 <a href="/page-3.html" id="i1ma" class="gpd-button2">zur&uumlck zur Modulliste&nbsp;</a>
 
-<div class = "message-thomas">
-
-<h4>Thomas Kienle:</h4>
-</div>
-
+<div id="demo-2">11:25</div>
 
 <div class="message-list" id="i9qq1">
-<h4>gibt es noch weitere Praktukumsaufgaben in diesem Semester?</h4>
+<h4>Thomas Kienle: gibt es noch weitere Praktukumsaufgaben in diesem Semester?</h4>
 
 </div>
 <input class="message-input" type="text" id="i9qq" class="form-control" /><p></p>
-<button class="addMessage" id="ifxu">Senden</button>
+<button onclick="myFunction()" class="addMessage" id="ifxu">Senden</button>
+<p id="demo"></p>
+<script>
+function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+function myFunction() {
+  var d = new Date();
+  var x = document.getElementById("demo");
+  var h = addZero(d.getHours());
+  var m = addZero(d.getMinutes());
+  x.innerHTML = h + ":" + m;
+}
+</script>
+
 <main>
 <article>
 <p></p>

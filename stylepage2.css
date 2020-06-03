@@ -183,7 +183,7 @@ body {
 	content: attr(data-count);
 	position: absolute;
 	top: 422px;
-    right: 11px;
+    right: 14px;
     font-size: 30px;
     font-weight: 700;
     color: white;
@@ -201,16 +201,15 @@ body {
 	  display:inline-block;
 	position: absolute;
 	top: 20px;
-	left: 12px;
+	left: 22px;
 	height: 32px;
-	width: 180px;
+	width: 160px;
 	color: white;
 	font-size: 15px;
-	font-weight: bold;
 	border: 1px solid #ca1f7b;
 	background: #ca1f7b;
 	border-radius: 3px;
-	line-height: 40px;
+	line-height: 30px;
 	cursor: pointer;
 	outline: none;
 	transition: .5s;

@@ -7,7 +7,8 @@ const addMessage = document.querySelector(".addMessage");
 
 addMessage.addEventListener("click", function() {
 const newLi = document.createElement("H4");
-const liContent = document.createTextNode(MessageInput.value);
+const liContent = document.createTextNode("Robert Hoffmann: " + MessageInput.value);
+MessageInput.style.color = "white"
 newLi.appendChild(liContent);
 MessageList.appendChild(newLi);
 });

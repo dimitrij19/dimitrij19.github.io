@@ -29,6 +29,14 @@ body {
 }
 
 
+.message-thomas{
+color:#8B4513;
+margin:0 0 20px 30px;
+
+}
+
+
+
 .gpd-button2:hover{
   opacity:0.85;
 }
@@ -74,7 +82,7 @@ body {
   }
   
    #i9qq1{
-    margin:10px 20px 20px 30px;
+    margin:-20px 20px 20px 30px;
   }
   
   

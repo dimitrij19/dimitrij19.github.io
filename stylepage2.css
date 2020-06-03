@@ -182,8 +182,8 @@ body {
 .notify::before {
 	content: attr(data-count);
 	position: absolute;
-	top: 422px;
-    right: 14px;
+	top: 416px;
+    right: 12px;
     font-size: 30px;
     font-weight: 700;
     color: white;
@@ -208,7 +208,7 @@ body {
 	font-size: 15px;
 	border: 1px solid #ca1f7b;
 	background: #ca1f7b;
-	border-radius: 3px;
+	border-radius: 1px;
 	line-height: 30px;
 	cursor: pointer;
 	outline: none;
@@ -217,6 +217,8 @@ body {
 	     font-family:Arial, Helvetica, sans-serif;
 		  background-color:#ca1f7b;
 		   padding:0 0 6px 0;
+		     transition:color 0.25s, opacity 0.25s;
+			   padding:6px -20px 6px 30px;
 		  
 }
 .container .btn:hover{
